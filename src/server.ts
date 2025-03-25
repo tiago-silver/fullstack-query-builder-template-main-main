@@ -1,6 +1,5 @@
 import express, { Request, Response } from "express"
 import {knex} from "./database/knex"
-import { request } from "http"
 
 const app = express()
 app.use(express.json())
